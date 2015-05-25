@@ -31,7 +31,7 @@ public class CustomerRest {
 	public String login(@FormParam("username") String username, 
 							@FormParam("password") String password) {
 
-		System.out.println("Dentro de insertar(): " + username);
+		System.out.println("Doing Login......(): " + username);
 
 		JSONObject jsonObj = new JSONObject();
 		
